@@ -65,10 +65,6 @@ html, body {
     size: A4 portrait;
     margin: 6mm;
   }
-  .comment-area {
-    display: table;
-    word-break: break-all;/*Chromeのみのため*/
-}
 }
 
 
