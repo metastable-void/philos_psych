@@ -62,9 +62,13 @@ html, body {
 
 @media print{
   @page {
-    size: A4;
+    size: A4 landscape;
     margin: 25mm;
   }
+  .comment-area {
+    display: table;
+    word-break: break-all;/*Chromeのみのため*/
+}
 }
 
 
