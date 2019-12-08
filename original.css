@@ -65,7 +65,7 @@ html, body {
     size: A4 portrait;
     margin: 6mm;
   }
-  .block{page-break-inside: avoid;}
+  p{page-break-inside: avoid;}
 }
 
 
