@@ -63,7 +63,7 @@ html, body {
 @media print{
   @page {
     size: A4 landscape;
-    margin: 25mm;
+    margin: mm;
   }
   .comment-area {
     display: table;
