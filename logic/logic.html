@@ -8,12 +8,11 @@
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </head>
 <body>
-<div class="block">
 	
 <h1 id="%E6%95%B0%E5%BC%8F%E3%83%86%E3%82%B9%E3%83%88">数式テスト</h1>
 <p>$$\not \exists n \forall x, y, z( (n, x, y, z \in \mathbb{N}) \land (x^ n + y^ n = z^ n) \land  (n \geq 3) )$$</p>
 <p><a href="./logic.pdf">このページのPDFをダウンロード</a></p>
-<h2 id="%E8%87%AA%E7%84%B6%E6%BC%94%E7%B9%B9">自然演繹</h2>
+
 <p>$$\displaystyle \frac {A \Rightarrow B \quad A}{B}(\Rightarrow E)$$</p>
 <p> </p>
 <p>$$
@@ -109,7 +108,20 @@ $$</p>
 }{B \lor C}(\lor E,1)
 }{A \rightarrow(B \land C)}(\rightarrow I, 2)
 $$</p>
+<p> 
+37. 自然演繹</p>
+<p>$$\displaystyle \vdash ((A \rightarrow B)\rightarrow A) \rightarrow A $$</p>
+<hr>
+<p>$$
+\frac{\displaystyle \frac{
+\genfrac {}{}{0px}{0}{}{[\lnot A]^2}  \quad \displaystyle \frac{
+\genfrac{}{}{0px}{0}{}{[(A \rightarrow B)\rightarrow A]^3}\quad \displaystyle \frac{\displaystyle \frac {\displaystyle \frac{\genfrac{}{}{0px}{0}{}{[\lnot A]^2}\quad \genfrac{}{}{0px}{0}{}{[A]^1}(\lnot E)}{\perp}}{B}(\perp)}{A \rightarrow B}(\rightarrow I,1)}{A}(\rightarrow I ,1)
+}
+{\displaystyle \frac{\perp}{A}(\perp _ c,2)}(\lnot E)}
+{(A\rightarrow B)\rightarrow A \rightarrow A}(\rightarrow I,3)
+$$</p>
 
-</div>
+</body>
+
 </body>
 </html>
