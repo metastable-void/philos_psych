@@ -62,14 +62,14 @@ html, body {
 @media print{
 @page {
     size: A4 portrait;
-    margin: 25mm;
+    margin: 6mm;
 p{page-break-inside: avoid;}
   body{
      font-size: 11pt;
 }
   }
 }
-
+ 
 
   * {
     -webkit-print-color-adjust: exact;
