@@ -2,27 +2,27 @@
     font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: normal;
-    src: local('YuMincho-Midium'), url('./original/yumin.woff') format('woff');
+    src: local('YuMincho-Midium'), url('https://anosatsuk124.github.io/philos_psych/original/yumin.woff') format('woff');
 }
 @font-face {
     font-family: 'Yu Mincho';
     font-style: italic;
     font-weight: normal;
-    src: local('YuMincho-Midium'), url('./original/yumin.woff') format('woff');
+    src: local('YuMincho-Midium'), url('https://anosatsuk124.github.io/philos_psych/original/yumin.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Yu Mincho';
     font-style: normal;
     font-weight: bold;
-    src: local('YuMincho-Bold'), url('./original/yumin.woff') format('woff');
+    src: local('YuMincho-Bold'), url('https://anosatsuk124.github.io/philos_psych/original/yumin.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Yu Mincho';
     font-style: italic;
     font-weight: bold;
-    src: local('YuMincho-Bold'), url('./original/yumin.woff') format('woff');
+    src: local('YuMincho-Bold'), url('https://anosatsuk124.github.io/philos_psych/original/yumin.woff') format('woff');
 }
 
 :root {
