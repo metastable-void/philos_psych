@@ -6,15 +6,25 @@
 <link rel="stylesheet" href="https://anosatsuk124.github.io/philos_psych/original.css" type="text/css">
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+  "HTML-CSS": {
+    styles: {".MathJax_Preview": {visibility: "hidden"}}
+  },
+  tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+  TeX: {extensions: ["AMSmath.js","AMSsymbols.js","http://sonoisa.github.io/xyjax_ext/xypic.js"]}
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+
 </head>
 <body>
-
-<p><a href="https://anosatsuk124.github.io/philos_psych/">トップに戻る</a></p>
-	
 <h1 id="%E6%95%B0%E5%BC%8F%E3%83%86%E3%82%B9%E3%83%88">数式テスト</h1>
 <p>$$\not \exists n \forall x, y, z( (n, x, y, z \in \mathbb{N}) \land (x^ n + y^ n = z^ n) \land  (n \geq 3) )$$</p>
-<p><a href="./logic.pdf">このページのPDFをダウンロード</a></p>
-
+<h2 id="%E8%87%AA%E7%84%B6%E6%BC%94%E7%B9%B9">自然演繹</h2>
 <p>$$\displaystyle \frac {A \Rightarrow B \quad A}{B}(\Rightarrow E)$$</p>
 <p> </p>
 <p>$$
@@ -122,8 +132,15 @@ $$</p>
 {\displaystyle \frac{\perp}{A}(\perp _ c,2)}(\lnot E)}
 {(A\rightarrow B)\rightarrow A \rightarrow A}(\rightarrow I,3)
 $$</p>
-
-</body>
+<p>$$
+\begin{xy}
+\xymatrix {
+U \ar@/_/[ddr]_y \ar@{.&gt;}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
+&amp; X \times_Z Y \ar[d]^q \ar[r]_p &amp; X \ar[d]_f \\
+&amp; Y \ar[r]^g &amp; Z
+}
+\end{xy}
+$$</p>
 
 </body>
 </html>
