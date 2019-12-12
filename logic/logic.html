@@ -4,11 +4,7 @@
 <title>数式処理テスト</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <link rel="stylesheet" href="https://anosatsuk124.github.io/philos_psych/original.css" type="text/css">
-</head>
-  
-<body>
- 
-\<script type="text/x-mathjax-config">
+<script type="text/x-mathjax-config">
 MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},
 TeX: { extensions: ["https://anosatsuk124.github.io/philos_psych/xypic.js"] },
 CommonHTML: {matchFontHeight:false}});</script>
@@ -17,6 +13,10 @@ CommonHTML: {matchFontHeight:false}});</script>
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML">
 </script> 
 
+</head>
+  
+<body>
+  
 <p><a href="https://anosatsuk124.github.io/philos_psych/">トップに戻る</a></p>
 <p><a href="./logic.pdf">このページのPDFをダウンロード</a></p>
 <h1 id="%E6%95%B0%E5%BC%8F%E3%83%86%E3%82%B9%E3%83%88">数式テスト</h1>
@@ -140,15 +140,50 @@ U \ar@/_/[ddr]_y \ar@{.&gt;}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
 \end{xy}
 $$</p>
 <p> </p>
-<h2 id="%E6%A7%8B%E6%96%87%E6%9C%A8">構文木</h2>
+<h2 id="%E6%A7%8B%E6%96%87%E6%9C%A81">構文木1</h2>
 <p>$$
-\xymatrix{
+\begin{xy}
+\xymatrix@!C{
 &amp; S \ar@{-}[dl] \ar@{-}[dr] &amp; \\
-NP \ar@{-}[d] &amp;  &amp; VP \ar@{-}[d] \ar@{-}[drr] &amp; \\
-\ar@{-}[d] &amp; &amp; \ar@{-}[d] &amp; &amp; NP \ar@{-}[dl] \ar@{-}[dr] &amp; \\
-pron \ar@{-}[d] &amp; &amp; verb \ar@{-}[d] &amp; det \ar@{-}[d] &amp; &amp; noun \ar@{-}[d] &amp; \\
-\rm{I} &amp;  &amp; \rm{have} &amp; \rm{a} &amp; &amp; \rm{pen}
+NP \ar@{-}[d] &amp;&amp; VP \ar@{-}[d] \ar@{-}[drr] &amp; \\
+\ar@{-}[d] &amp;&amp; \ar@{-}[d] &amp;&amp; NP \ar@{-}[dl] \ar@{-}[dr] &amp; \\
+pron \ar@{-}[d] &amp;&amp; verb \ar@{-}[d] &amp; det \ar@{-}[d] &amp;&amp; noun \ar@{-}[d] &amp; \\
+\rm{I} &amp;&amp; \rm{have} &amp; \rm{a} &amp;&amp; \rm{pen}
 }
+\end{xy}
+$$</p>
+<h2 id="%E3%83%9E%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%AB%E6%96%B9%E7%A8%8B%E5%BC%8F">マスウェル方程式</h2>
+<p>$$
+\begin{align}
+\nabla \cdot \mathbf{B} &amp;= 0 \\
+\nabla \times \mathbf{E} &amp;= -\frac{\partial B}{\partial t}\\
+\nabla \cdot \mathbf{D} &amp;= \rho \\
+\nabla \times \mathbf{H} &amp;= \mathbf{J} + \frac{\partial \mathbf{D}}{\partial t} \\
+\end{align}
+$$</p>
+<h2 id="%E6%A7%8B%E6%96%87%E6%9C%A82">構文木2</h2>
+<p>$$
+\begin{xy}
+\xymatrix@!C{
+&amp; S \ar@{-}[dl] \ar@{-}[dr] &amp; \\
+NP \ar@{-}[dd] &amp;&amp; VP \ar@{-}[dd] \ar@{-}[drr] &amp; \\
+&amp;&amp; &amp;&amp; NP \ar@{-}[dl] \ar@{-}[dr] &amp; \\
+pron \ar@{-}[d] &amp;&amp; verb \ar@{-}[d] &amp; det \ar@{-}[d] &amp;&amp; noun \ar@{-}[d] &amp; \\
+\rm{I} &amp;&amp; \rm{have} &amp; \rm{a} &amp;&amp; \rm{pen}
+}
+\end{xy}
+$$</p>
+<h2 id="%E6%A7%8B%E6%96%87%E6%9C%A83">構文木3</h2>
+<p>$$
+\begin{xy}
+\xymatrix@!C{
+&amp; S \ar@{-}[dl] \ar@{-}[dr] &amp; \\
+NP \ar@{-}[dd] &amp;&amp; VP \ar@{-}[ddl] \ar@{-}[dr] &amp; \\
+&amp;&amp; &amp; NP \ar@{-}[dl] \ar@{-}[dr] &amp; \\
+pron \ar@{-}[d] &amp; verb \ar@{-}[d] &amp;det \ar@{-}[d]   &amp;&amp;noun \ar@{-}[d]&amp;  &amp; \\
+\rm{I} &amp;\rm{have}&amp; \rm{a}&amp; &amp;\rm{pen}&amp;
+}
+\end{xy}
 $$</p>
 </body>
 </html>
