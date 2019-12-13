@@ -65,7 +65,6 @@ html, body {
     size: A4 portrait;
     margin: 6mm;
   }
-p{page-break-inside: avoid;}
   body{
      font-size: 11pt;
 }
