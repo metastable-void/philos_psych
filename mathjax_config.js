@@ -2,6 +2,7 @@ MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],
 processEscapes:true},
 TeX: { extensions: ["https://anosatsuk124.github.io/philos_psych/xypic.js", "mhchem.js"],
 Macros: {
+      xy: ['{\\begin{xy}\\xymatrix{#1}{#2}\\end{xy}}', 2],
       line: '{\\ar@{-}[#1], 1}',
       gf: ['{\\genfrac{ }{ }{0px}{0}{ }{#1}}', 1],
       abs: ['\\lvert #1 \\rvert', 1]
