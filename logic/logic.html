@@ -5,7 +5,7 @@
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 <link rel="stylesheet" href="https://anosatsuk124.github.io/philos_psych/original.css" type="text/css">
 
- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script> 
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_SVG"></script> 
 <script type="text/javascript" src="https://anosatsuk124.github.io/philos_psych/mathjax_config.js"></script>
 
 </head>
@@ -231,7 +231,31 @@ $$</p>
 }
 \end{xy}
 $$</p>
-
+<h3 id="%E9%95%B7%E3%81%84%E6%96%87%E7%AB%A0">長い文章</h3>
+<p>$$
+\begin{xy}
+\xymatrix@!C=10pt{
+&amp;&amp;S \ar@{-}[dl] \ar@{-}[drr]  &amp; \\
+&amp;NP \ar@{-}[dl] \ar@{-}[dr] &amp;&amp;&amp; VP \ar@{-}[dl] \ar@{-}[dr] \ar@{-}[drrrrrr] &amp; \\
+Det \ar@{-}[ddd] &amp;&amp; N \ar@{-}[ddd] &amp; V \ar@{-}[ddd] &amp;&amp; NP \ar@{-}[dl] \ar@{-}[d] \ar@{-}[drr] &amp;&amp;&amp;&amp;&amp; PP \ar@{-}[dl] \ar@{-}[dr] &amp; \\
+&amp;&amp;&amp;&amp;Det \ar@{-}[dd] &amp; N \ar@{-}[dd] &amp;&amp; PP \ar@{-}[dl] \ar@{-}[dr] &amp;&amp; P \ar@{-}[dd] &amp;&amp; NP \ar@{-}[dl] \ar@{-}[dr] &amp; \\
+&amp;&amp;&amp;&amp;&amp;&amp;P \ar@{-}[d] &amp;&amp; NP \ar@{-}[d] &amp;&amp; Det \ar@{-}[d] &amp;&amp; N \ar@{-}[d] &amp; \\
+the &amp;&amp; student &amp; met &amp; a &amp; girl &amp; from &amp;&amp; N.Y. &amp; in &amp; the &amp;&amp; park &amp; \\
+}
+\end{xy}
+$$</p>
+<h2 id="%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BF%9C%E5%BC%8F">化学反応式</h2>
+<p>$$
+\ce{CaCO3 -&gt;[900,{}^{\circ}\mathrm{C}] CaO + CO2}
+$$</p>
+<h2 id="%E3%83%9E%E3%82%AF%E3%83%AD">マクロ</h2>
+<p>$$
+\f{
+\gf{A \lor B} \quad
+\f{[A]^1}{B \lor A}(\lor I)
+\f {[B]^1}{B \lor A}(\lor I)
+}{B \lor A}(\lor E, 1)
+$$</p>
   
 <details>
 <summary>このページのコード</summary>
@@ -496,6 +520,23 @@ $$
 }
 \end{xy}
 $$
+
+## 化学反応式
+
+$$
+\ce{CaCO3 ->[900\,{}^{\circ}\mathrm{C}] CaO + CO2}
+$$
+
+## マクロ
+
+$$
+\f{
+\gf{A \lor B} \quad
+\f{[A]^1}{B \lor A}(\lor I) 
+\f {[B]^1}{B \lor A}(\lor I) 
+}{B \lor A}(\lor E, 1)
+$$
+
 </code>
 </pre>
 </details>
