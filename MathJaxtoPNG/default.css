@@ -6,7 +6,7 @@ body{
 textarea#input_area{
     padding:10px;
     height:23vh;
-    width:90vw;
+    width:23vw;
     resize:both;
     box-shadow: inset 2.5px 2.5px 2.5px 2.5px #cccccc;
     border-radius: 7px;
@@ -20,7 +20,7 @@ p#output_area{
     border-radius:7px;
     box-shadow: inset 2.5px 2.5px 2.5px 2.5px #cccccc;
     height: 55vh;
-    width: 90vw;
+    width: 55vw;
     overflow: scroll;
     resize:both;
     background-color:#fafafa;
