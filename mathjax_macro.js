@@ -5,4 +5,4 @@ MathJax.Hub.Config({
   }
  }
 });
-MathJax.Ajax.loadComplete(\"https://anosatsuk124.github.io/philos_psych/mathjax_macro.js\");
+MathJax.Ajax.loadComplete("https://anosatsuk124.github.io/philos_psych/mathjax_macro.js");
