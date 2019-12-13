@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 25px;
+	/*30 / 16*/
+	line-height: 25px;
+	/* 48 / 30*/
+	text-align:  center;
+}
+h2,h3 {
+	font-size: 20px;
+	/*21 / 16*/
+	line-height: 20px;
+	/*24 / 21*/
+	margin-top: 2.285714em;
+	/*48 / 21*/
+	margin-bottom: 1em;
+	/*24 / 21*/
+	counter-increment: chapter;
+	counter-reset: section;
+}
+h3 {
+	font-weight: normal;
+}
+h2:before {
+    content: counter(chapter) ". ";
+    color: #000000;
+}
+
+h4 {
+	font-size: 16px;
+	/*18 / 16*/
+	margin-top: 1em;
+	/*48 / 18*/
+	counter-increment: subsection;
+}
+h4:before {
+    content: counter(chapter) "." counter(section) "." counter(subsection) ". ";
+    color: #000000;
+}
+
+h5,
+h6 {
+	font-size: 15px;
+	marging-top: 0.5em;
+	margin-botttom: 0.5em;
+	/*16*/
+}
+
+
+h3 {
+    font-size: 18px;
+    margin-top: 1em;
+    counter-increment: section;
+    counter-reset: subsection;
+    clear: right;
+}
+h3:before {
+    content: counter(chapter) "." counter(section) ". " ;
+    color: #000000;
+}
