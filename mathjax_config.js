@@ -5,7 +5,7 @@ Macros: {
       line: '{\\ar@{-}[#1], 1}',
       gf: ['{\\genfrac{ }{ }{0px}{0}{ }{#1}}', 1],
       abs: ['\\lvert #1 \\rvert', 1],
-      f: ['{\\displaystyle\\frac{#1}{#2}}', 2]
+      f: ['{\\displaystyle \\frac{#1}{#2}}', 2]
 }
 },
 CommonHTML: {matchFontHeight:false}});
