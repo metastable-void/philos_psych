@@ -1,3 +1,8 @@
+body{
+    font-family:sans-serif;
+    background-color:#e8e8ff;
+    text-align:center;
+}
 textarea#input_area{
     padding:10px;
     height:23vh;
