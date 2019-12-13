@@ -1,6 +1,6 @@
 MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],
 processEscapes:true},
-TeX: { extensions: ["https://anosatsuk124.github.io/philos_psych/xypic.js", "mhchem.js"]},
+TeX: { extensions: ["https://anosatsuk124.github.io/philos_psych/xypic.js", "mhchem.js"],
 Macros: {
       RR: '{\\bf R}',
       sinc: '\\mathop{\\rm sinc}',
