@@ -65,20 +65,13 @@ html, body {
     size: A4 portrait;
     margin: 6mm;
   }
-  body{
-     font-size: 11pt;
-}
 
  
 
   * {
     -webkit-print-color-adjust: exact;
   }
-  
-  body {
-    margin: 0;
-    padding: 0;
-  }
+ 
  
 
 }
