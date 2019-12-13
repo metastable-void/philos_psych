@@ -27,7 +27,7 @@ p#output_area{
     width: 90vw;
     overflow: scroll;
     resize:both;
-    background-color:#fafafa;
+    background-color:#ffffff;
     color:#000000;
     margin: 0 auto;
 }
