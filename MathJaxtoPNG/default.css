@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Yu Mincho';
+    font-style: normal;
+    font-weight: normal;
+    src: local('YuMincho-Midium'), url('https://anosatsuk124.github.io/philos_psych/original/yumin.woff') format('woff');
+}
 body{
-    font-family:sans-serif;
+    font-family: 'YU Mincho';
     text-align:center;
 }
 textarea#input_area{
