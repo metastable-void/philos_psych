@@ -2051,4 +2051,4 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
 
 });
 
-MathJax.Ajax.loadComplete("[ChemJax]/chemfig3.js");
+MathJax.Ajax.loadComplete("https://anosatsuk124.github.io/philos_psych/chemfig3.js");
