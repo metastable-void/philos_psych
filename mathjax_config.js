@@ -6,7 +6,6 @@ Macros: {
       gf: ['{\\genfrac{ }{ }{0px}{0}{ }{#1}}', 1],
       abs: ['\\lvert #1 \\rvert', 1],
       f: ['{\\displaystyle \\frac{#1}{#2}}', 2],
-      l: '{\\\\}'
 }
 },
 CommonHTML: {matchFontHeight:false}});
