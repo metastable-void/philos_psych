@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./default.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTML' async></script>
+  <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            processEscapes: true
+          }
+        });
+        </script>
+  <script type="text/javascript" src="./html2canvas.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body>
+  <textarea id='input_area' autofocus placeholder="$a\gt0,\alpha\lt\beta $とする。
+$y=ax^2+bx+c$で表される曲線$C$と、$C$上の2点$(\alpha,a\alpha^2+b\alpha+c),(\beta,a\beta^2+b\beta+c)$を通る直線$L$について、
+
+$C$と$L$で囲まれる部分の面積は$$-\int_\alpha^\beta a(x-\alpha)(x-\beta) dx = \frac{a}{6}(\beta-\alpha)^3$$となる。"></textarea>
+  <p id='output_area'></p>
+  <div id='canvas_test_div'></div>
+  <button id="download_png_button">PNG画像としてダウンロード</button>
+  <a id="hiddenLink" download="formula.png" style="display:none">link</a>
+
+  <div id="controller">
+    <table id="controller_table">
+      <tr>
+        <td>フォント</td>
+        <td>
+          <label><input type="radio" name="font_radio" value="sans_serif" checked="checked">ゴシック体</label>
+          <label><input type="radio" name="font_radio" value="serif">明朝体</label>
+        </td>
+      </tr>
+      <tr id="font_size_controller">
+        <td>
+          フォントサイズ
+        </td>
+        <td><input type="range" id="font_size_range" max=1.5 min=-1.5 step=0.1>
+          <button id="font_size_reset_button" class="reset_button">リセット</button>
+        </td>
+      </tr>
+      <tr id="bg_color_controller">
+        <td>背景色</td>
+        <td>
+          <input id='bg_color_input' type='color' value='#eeeeee'>
+          <button id="bg_color_reset_button" class="reset_button">リセット</button>
+        </td>
+      </tr>
+      <tr id="text_color_controller">
+        <td>文字色</td>
+        <td>
+          <input id='text_color_input' type='color' value='#000022'>
+          <button id="text_color_reset_button" class="reset_button">リセット</button>
+        </td>
+      </tr>
+    </table>
+  </div>
