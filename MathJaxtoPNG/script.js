@@ -110,7 +110,7 @@ window.onload = function() {
   bgColorResetButton.addEventListener('click', () => {
     outputArea.style.backgroundColor = '';
     localStorage.removeItem(SAVED_BACKGROUND_COLOR);
-    bgColorInput.value = '#fafafa';
+    bgColorInput.value = '#FFFFFF';
     ga('send', 'event', 'options', 'bgcolor', 'reset');
   });
 
