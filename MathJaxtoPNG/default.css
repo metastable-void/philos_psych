@@ -1,14 +1,12 @@
 body{
     font-family:sans-serif;
-    background-color:#e8e8ff;
     text-align:center;
 }
 textarea#input_area{
     padding:10px;
     height:23vh;
-    width:23vw;
+    width:46vw;
     resize:both;
-    box-shadow: inset 2.5px 2.5px 2.5px 2.5px #cccccc;
     border-radius: 7px;
     border:none;
 }
@@ -18,11 +16,11 @@ p#output_area{
     text-align:left;
     border: none;
     border-radius:7px;
-    box-shadow: inset 2.5px 2.5px 2.5px 2.5px #cccccc;
     height: 23vh;
-    width: 23vw;
+    width: 46vw;
     overflow: scroll;
     resize:both;
     background-color:#fafafa;
     color:#000022;
+    margin: 0 auto;
 }
