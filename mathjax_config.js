@@ -5,6 +5,7 @@ Macros: {
       RR: '{\\bf R}',
       sinc: '\\mathop{\\rm sinc}',
       abs: ['\\lvert #1 \\rvert', 1]
+}
 },
 CommonHTML: {matchFontHeight:false}});
 
