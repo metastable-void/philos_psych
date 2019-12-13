@@ -5,7 +5,7 @@
     src: local('YuMincho-Midium'), url('https://anosatsuk124.github.io/philos_psych/original/yumin.woff') format('woff');
 }
 body{
-    font-family: 'YU Mincho';
+    font-family: 'Yu Mincho';
     text-align:center;
 }
 textarea#input_area{
