@@ -11,7 +11,7 @@ body{
 textarea#input_area{
     padding:10px;
     height:23vh;
-    width:46vw;
+    width:90vw;
     resize:both;
     border-radius: 7px;
     background-color:#fafafa;
@@ -23,8 +23,8 @@ p#output_area{
     text-align:left;
     border: none;
     border-radius:7px;
-    height: 23vh;
-    width: 46vw;
+    height: 55vh;
+    width: 90vw;
     overflow: scroll;
     resize:both;
     background-color:#fafafa;
