@@ -3,7 +3,7 @@ processEscapes:true},
 TeX: { extensions: ["https://anosatsuk124.github.io/philos_psych/xypic.js", "mhchem.js"],
 Macros: {
       aar: '{\\ar@{-}[#1], 1}',
-      gfrac: ['{\\genfrac{}{}{0px}{0}{}{#1}}', 1],
+      gfrac: ['{\\genfrac{}{}{0px}{0}{#1}{#2}}', 2],
       abs: ['\\lvert #1 \\rvert', 1]
 }
 },
