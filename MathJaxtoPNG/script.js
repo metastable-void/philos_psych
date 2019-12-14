@@ -16,7 +16,7 @@ window.onload = function() {
   const textColorInput = document.getElementById('text_color_input');
   
   let s = document.createElement('script');
-  let code = document.getElementById('output_area');
+  let code = document.getElementById('input_area');
   s.innerHTML = code;
   document.output_area.appendChild(s);
 
