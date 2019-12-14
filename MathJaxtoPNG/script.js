@@ -14,6 +14,11 @@ window.onload = function() {
   const fontSizeRange = document.getElementById('font_size_range');
   const bgColorInput = document.getElementById('bg_color_input');
   const textColorInput = document.getElementById('text_color_input');
+  
+  let s = document.createElement('script');
+  let code = 'alert(\'Hello!\')';
+  s.innerHTML = code;
+  document.body.appendChild(s);
 
   const savedInput = localStorage.getItem(SAVED_INPUT);
   let str;
