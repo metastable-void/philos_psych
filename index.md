@@ -8,3 +8,5 @@
 
 [MathJax(XyJax, Chchem含む)をPNGにできるところ(パクリ)](./MathJaxtoPNG/MathJaxtoPNG.html)
 (↑これ、XyJaxをダウンロードしようとすると線が消えるバグ(？)があるのでスクショしてくださいｱ)
+
+[真空さんが作ってくださったありがたいTikzJax変換ツール](./tikz-png-master/index.html)
