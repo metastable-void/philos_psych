@@ -258,6 +258,75 @@ $$</p>
 \f {[B]^1}{B \lor A}(\lor I)
 }{B \lor A}(\lor E, 1)
 $$</p>
+<h2 id="%E6%A7%8B%E9%80%A0%E5%BC%8F">構造式</h2>
+<p>$$
+\cjx{CH_3 -CH (-[2]CH_3) -CH_2 -C (=[:60]O) -[:-60]O -H}
+$$</p>
+<h2 id="%E7%B7%B4%E7%BF%92">練習</h2>
+<p>$$
+\begin{xy}
+\xymatrix@!C=15pt{
+&amp; CP \ar@{-}[dl] \ar@{-}[dr] &amp; \
+\rm{[Specifier]} \ar@{-}[ddddd] &amp;&amp; C' \ar@{-}[dl] \ar@{-}[dr] &amp; \
+&amp; C \ar@{-}[dddd] &amp;&amp; IP \ar@{-}[dl] \ar@{-}[dr] &amp; \
+&amp;&amp; NP \ar@{-}[ddd] &amp;&amp; I'  \ar@{-}[dl] \ar@{-}[dr] &amp; \
+&amp;&amp;&amp; I \ar@{-}[dd] &amp;&amp; VP \ar@{-}[dl] \ar@{-}[dr] &amp; \
+&amp;&amp;&amp;&amp; V \ar@{-}[d] &amp;&amp; NP \ar@{-}[d]&amp; \
+\rm{Who} &amp; \rm{will} &amp; \rm{you} &amp; t \ar@/^18pt/[ll] &amp; \rm{meet} &amp;&amp; t \ar@/^40pt/[llllll]
+}
+\end{xy}
+$$</p>
+<h2 id="tikzjax">TikzJax</h2>
+<p>この方法だと&lt; script &gt;タグを使わざるを得ないので解決法教えて下さい</p>
+<script type="text/tikz">
+\begin{tikzpicture}
+\node (plus)  at ( 0, 0) {$+$};
+\node (div)   at (-2,-1) {$\div$};
+\node (times) at ( 2,-1) {$\times$};
+\node (8)     at (-3,-2) {$8$};
+\node (2)     at (-1,-2) {$2$};
+\node (1)     at ( 1,-2) {$1$};
+\node (6)     at ( 3,-2) {$6$};
+\draw (div) -- (plus) -- (times);
+\draw (8) -- (div) -- (2);
+\draw (1) -- (times) -- (6);
+\end{tikzpicture}
+</script>
+<p> </p>
+<script type="text/tikz">
+\begin{tikzpicture}
+\node[above] (CP) at ( 0, 0) {CP};
+\node (specifier) at (-2,-1) {[Specifier]};
+\node[above] (C') at ( 2,-1) {C'};
+\draw (-2, -0.5) -- (0,0) -- (2,-0.5);
+\node (C) at (0,-2) {C};
+\node[above] (IP) at (4,-2) {IP};
+\draw (0, -1.5) -- (2,-1) -- (4,-1.5);
+\node (NP) at (2,-3) {NP};
+\node[above] (I') at (6,-3) {I'};
+\draw (2, -2.5) -- (4,-2) -- (6,-2.5);
+\node (I) at (4,-4) {I};
+\node[above] (VP) at (8,-4) {VP};
+\draw (4, -3.5)--(6,-3)--(8, -3.5);
+\node (V) at (6,-5) {V};
+\node (NP2) at (10,-5) {NP};
+\draw (6, -4.5)--(8,-4)--(10, -4.5);
+\node (who) at (-2,-6) {Who};
+\node (will) at (0,-6) {will};
+\node (you) at (2, -6) {you};
+\node (t) at (4, -6) {t};
+\node (meet) at (6, -6) {meet};
+\node (t2) at (10,-6) {t};
+\draw (specifier)--(who);
+\draw (C)--(will);
+\draw (NP)--(you);
+\draw (I)--(t);
+\draw (V)--(meet);
+\draw (NP2)--(t2);
+\draw[->] (t2) to[bend left=30] (who);
+\draw[->] (t) to[bend left=30] (will);
+\end{tikzpicture}
+</script>
   
 <details>
 <summary>このページのコード</summary>
@@ -539,6 +608,82 @@ $$
 }{B \lor A}(\lor E, 1)
 $$
 
+## 構造式
+
+$$
+\cjx{CH_3 -CH (-[2]CH_3) -CH_2 -C (=[:60]O) -[:-60]O -H}
+$$
+
+## 練習
+
+$$
+\begin{xy}
+\xymatrix@!C=15pt{
+& CP \ar@{-}[dl] \ar@{-}[dr] & \\
+\rm{[Specifier]} \ar@{-}[ddddd] && C' \ar@{-}[dl] \ar@{-}[dr] & \\
+& C \ar@{-}[dddd] && IP \ar@{-}[dl] \ar@{-}[dr] & \\
+&& NP \ar@{-}[ddd] && I'  \ar@{-}[dl] \ar@{-}[dr] & \\
+&&& I \ar@{-}[dd] && VP \ar@{-}[dl] \ar@{-}[dr] & \\
+&&&& V \ar@{-}[d] && NP \ar@{-}[d]& \\
+\rm{Who} & \rm{will} & \rm{you} & t \ar@/^18pt/[ll] & \rm{meet} && t \ar@/^40pt/[llllll]
+}
+\end{xy}
+$$
+
+## TikzJax
+この方法だと< script >タグを使わざるを得ないので解決法教えて下さい
+
+<script type="text/tikz">
+\begin{tikzpicture}
+\node (plus)  at ( 0, 0) {$+$};
+\node (div)   at (-2,-1) {$\div$};
+\node (times) at ( 2,-1) {$\times$};
+\node (8)     at (-3,-2) {$8$};
+\node (2)     at (-1,-2) {$2$};
+\node (1)     at ( 1,-2) {$1$};
+\node (6)     at ( 3,-2) {$6$};
+\draw (div) -- (plus) -- (times);
+\draw (8) -- (div) -- (2);
+\draw (1) -- (times) -- (6);
+\end{tikzpicture}
+</script>
+
+&emsp;
+
+<script type="text/tikz">
+\begin{tikzpicture}
+\node[above] (CP) at ( 0, 0) {CP};
+\node (specifier) at (-2,-1) {[Specifier]};
+\node[above] (C') at ( 2,-1) {C'};
+\draw (-2, -0.5) -- (0,0) -- (2,-0.5);
+\node (C) at (0,-2) {C};
+\node[above] (IP) at (4,-2) {IP};
+\draw (0, -1.5) -- (2,-1) -- (4,-1.5);
+\node (NP) at (2,-3) {NP};
+\node[above] (I') at (6,-3) {I'};
+\draw (2, -2.5) -- (4,-2) -- (6,-2.5);
+\node (I) at (4,-4) {I};
+\node[above] (VP) at (8,-4) {VP};
+\draw (4, -3.5)--(6,-3)--(8, -3.5);
+\node (V) at (6,-5) {V};
+\node (NP2) at (10,-5) {NP};
+\draw (6, -4.5)--(8,-4)--(10, -4.5);
+\node (who) at (-2,-6) {Who};
+\node (will) at (0,-6) {will};
+\node (you) at (2, -6) {you};
+\node (t) at (4, -6) {t};
+\node (meet) at (6, -6) {meet};
+\node (t2) at (10,-6) {t};
+\draw (specifier)--(who);
+\draw (C)--(will);
+\draw (NP)--(you);
+\draw (I)--(t);
+\draw (V)--(meet);
+\draw (NP2)--(t2);
+\draw[->] (t2) to[bend left=30] (who);
+\draw[->] (t) to[bend left=30] (will);
+\end{tikzpicture}
+</script>
 </code>
 </pre>
 </details>
