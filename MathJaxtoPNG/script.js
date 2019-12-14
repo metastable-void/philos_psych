@@ -15,10 +15,8 @@ window.onload = function() {
   const bgColorInput = document.getElementById('bg_color_input');
   const textColorInput = document.getElementById('text_color_input');
   
-  let s = document.createElement('script');
   let code = document.getElementById('input_area');
-  s.innerHTML = code;
-  document.output_area.appendChild(s);
+  document.output_area.appendChild(code);
 
   const savedInput = localStorage.getItem(SAVED_INPUT);
   let str;
