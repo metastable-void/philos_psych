@@ -25,6 +25,9 @@ window.onload = function() {
   }
   outputArea.innerHTML = str.replace(/\r?\n/g, '<br>');
 
+let code = document.getElementById('input_area');
+outputArea.innerHTML = code;
+  
   const savedFont = localStorage.getItem(SAVED_FONT);
   if (savedFont !== null && savedFont !== '') {
     outputArea.style.fontFamily = savedFont;
