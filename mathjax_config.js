@@ -1,4 +1,4 @@
-MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],
+MathJax.Hub.Config({tex2jax:{inlineMath: [ ['$','$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\[','\]'] ],
 processEscapes:true},
 TeX: { extensions: ["https://anosatsuk124.github.io/philos_psych/xypic.js", "mhchem.js", "https://anosatsuk124.github.io/philos_psych/chemfig3.js"],
 Macros: {
