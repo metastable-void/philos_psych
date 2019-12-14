@@ -16,9 +16,9 @@ window.onload = function() {
   const textColorInput = document.getElementById('text_color_input');
   
   let s = document.createElement('script');
-  let code = 'alert(\'Hello!\')';
+  let code = document.getElementById('output_area');
   s.innerHTML = code;
-  document.body.appendChild(s);
+  document.output_area.appendChild(s);
 
   const savedInput = localStorage.getItem(SAVED_INPUT);
   let str;
