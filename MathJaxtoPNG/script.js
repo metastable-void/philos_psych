@@ -14,10 +14,7 @@ window.onload = function() {
   const fontSizeRange = document.getElementById('font_size_range');
   const bgColorInput = document.getElementById('bg_color_input');
   const textColorInput = document.getElementById('text_color_input');
-  
-  let code = document.getElementById('input_area');
-  document.output_area.appendChild(code);
-
+ 
   const savedInput = localStorage.getItem(SAVED_INPUT);
   let str;
   if (savedInput === null || savedInput === '') {
