@@ -31,22 +31,17 @@ e_input.addEventListener ('change', ev => void ((async ev => {
 	const svg_text = svg.outerHTML;
 	
 	
+@@ -32,8 +32,7 @@ e_input.addEventListener ('change', ev => void ((async ev => {
+
+
 	const img = new Image;
-	const svg_src = img.src = 'data:image/svg+xml,' + encodeURIComponent (svg_text);
+  const svg_src = img.src = 'data:image/svg+xml,' + encodeURIComponent (svg_text);
 	await new Promise (res => {
 		img.onload = ev => res (ev);
 	});
-	
-	console.log (img);
-	
-	const canvas = document.createElement ('canvas');
-	canvas.width = img.width;
-	canvas.height = img.height;
-	const ctx = canvas.getContext ('2d');
-	
-	ctx.clearRect (0, 0, canvas.width, canvas.height);
+@@ -49,6 +48,6 @@ e_input.addEventListener ('change', ev => void ((async ev => {
 	ctx.drawImage (img, 0, 0);
-	
+
 	e_download.href = canvas.toDataURL ('img/png');
 	e_img.src = svg_src;
 	e_output.textContent = '';
