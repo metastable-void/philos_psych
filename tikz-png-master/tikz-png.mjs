@@ -31,6 +31,9 @@ e_input.addEventListener ('change', ev => void ((async ev => {
 	const svg_text = svg.outerHTML;
 	
 	
+@@ -32,8 +32,7 @@ e_input.addEventListener ('change', ev => void ((async ev => {
+
+
 	const img = new Image;
 	const svg_src = 'data:image/svg+xml,' + encodeURIComponent (svg_text);
 	svg_src.src='';
