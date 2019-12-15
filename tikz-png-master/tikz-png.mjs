@@ -48,6 +48,6 @@ e_input.addEventListener ('change', ev => void ((async ev => {
 	ctx.drawImage (img, 0, 0);
 	
 	e_download.href = canvas.toDataURL ('img/png');
-	e_img.src = img_src;
+	e_img.src = svg_src;
 	e_output.textContent = '';
 }) (ev)));
