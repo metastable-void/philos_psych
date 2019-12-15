@@ -32,7 +32,8 @@ e_input.addEventListener ('change', ev => void ((async ev => {
 	
 	
 	const img = new Image;
-	img.src = 'data:image/svg+xml,' + encodeURIComponent (svg_text);
+	const svg_src = 'data:image/svg+xml,' + encodeURIComponent (svg_text);
+	svg_src.src='';
 	await new Promise (res => {
 		img.onload = ev => res (ev);
 	});
