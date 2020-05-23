@@ -4,7 +4,7 @@
 
 [数式処理テスト](./logic/logic.html)
 
-[精神疾患の性差に関する個人的考察](./mental/mental_illness.html)
+[精神疾患の性差に関する個人的考察](./mental/mentalillness.pdf)
 
 [MathJax(XyJax, Chchem含む)をPNGにできるところ(パクリ)](./MathJaxtoPNG/MathJaxtoPNG.html)
 (↑これ、XyJaxをダウンロードしようとすると線が消えるバグ(？)があるのでスクショしてくださいｱ)
