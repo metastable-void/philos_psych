@@ -15,4 +15,4 @@
 
 [精神疾患の性差に関する個人的考察](./mental/mentalillness.pdf)
 
-[Cyphanese](/anosatsuk124/Cyphanese/Cyphanese-tex/document.pdf)
+[Cyphanese](../Cyphanese/Cyphanese-tex/document.pdf)
