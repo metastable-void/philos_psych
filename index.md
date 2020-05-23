@@ -15,8 +15,8 @@
 
 [精神疾患の性差に関する個人的考察](./mental/mentalillness.pdf)
 
-[Cyphanese](../Cyphanese/Cyphanese-tex/document.pdf)
+[Cyphanese](../Cyphanese/Cyphanese-tex/document.pdf) (途中)
 
 ### Projects
 
-[Cyphanese](https://github.com/anosatsuk124/Cyphanese)
+[Cyphanese](https://github.com/anosatsuk124/Cyphanese) (進行中)
