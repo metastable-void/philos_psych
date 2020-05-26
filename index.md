@@ -27,7 +27,7 @@
 
 [精神疾患の性差に関する個人的考察](./mental/mentalillness.pdf)
 
-[Cyphanese](../Cyphanese/Cyphanese-article/document.pdf) (途中)
+[Cyphanese](../Cyphanese/Cyphanese-Article/document.pdf) (途中)
 
 ### Projects
 
