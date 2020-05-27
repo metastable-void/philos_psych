@@ -29,6 +29,8 @@
 
 [Cyphanese](../Cyphanese/Cyphanese-Article/document.pdf) (途中)
 
+[EuphonyIndex-Generatorによる実験](../Cyphanese/EuphonyIndex-Generator/README.md)
+
 ### Projects
 
 [Cyphanese](https://github.com/anosatsuk124/Cyphanese) (進行中)
