@@ -31,6 +31,8 @@
 
 [EuphonyIndex-Generatorによる実験](../Cyphanese/EuphonyIndex-Generator)
 
+[ロジスティック回帰分析の練習結果](../Cyphanese/EuphonyIndex-Generator/Projects/Logistic-Regression/Logistic-regression-analysis.html)
+
 ### Projects
 
 [Cyphanese](https://github.com/anosatsuk124/Cyphanese) (進行中)
