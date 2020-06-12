@@ -33,6 +33,7 @@
 
 [ロジスティック回帰分析の練習結果](../Cyphanese/EuphonyIndex-Generator/Projects/Logistic-Regression/Logistic-regression-analysis.html)
 
+[ロジスティック回帰を弱学習器に用いたadaboostの実装](../Cyphanese/EuphonyIndex-Generator/Projects/Newmodel/adaboost.html)
 ### Projects
 
 [Cyphanese](https://github.com/anosatsuk124/Cyphanese) (進行中)
