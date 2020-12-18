@@ -16,16 +16,17 @@
 
 ### 便利ツール
 
-[MathJax(XyJax, Chchem含む)をPNGにできるところ(パクリ)](./MathJaxtoPNG/MathJaxtoPNG.html)
+[MathJax(XyJax, Chchem含む)をPNGにできるところ(パクリ)](https://anosatsuk124.github.io/MathJaxtoPNG/)
 (↑これ、XyJaxをダウンロードしようとすると線が消えるバグ(？)があるのでスクショしてくださいｱ)
 
-[真空さんが作ってくださったありがたいTikzJax変換ツール](./tikz-png-master/index.html)
+[真空さんが作ってくださったありがたいTikzJax変換ツール](https://anosatsuk124.github.io/TikzJaxWeb/)
 
-[数式処理テスト](./logic/logic.html)
+[数式処理テスト](https://anosatsuk124.github.io/logic_test/)
+
 
 ### 論文もどきたち
 
-[精神疾患の性差に関する個人的考察](./mental/mentalillness.pdf)
+[精神疾患の性差に関する個人的考察](https://anosatsuk124.github.io/mental_about_sex/mentalillness.pdf)
 
 [Cyphanese](../Cyphanese/Cyphanese-Articles/document.pdf) (途中)
 
